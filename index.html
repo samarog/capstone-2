@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+  <body class="gradient-background">
+    
+<!-- Hero -->
+  <div class="container col-xxl-8 px-4 py-5" id="hero"> <!-- This line is very importante for resizing and aligning -->
+    <div class="row flex-lg-row-reverse justify-content-center align-items-center g-5 py-5">
+        <div class="col-8 col-sm-6 col-lg-4">
+          <img src="./assets/images/hero.png" class="d-block mx-lg-auto img-fluid" alt="Hero" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6 ">
+          <h1 class="display-5 fw-bold lh-1 mb-3">I'm <span style="font-weight: 200;">Gonçalo</span> Amaro</h1>
+          <p class="lead">A self-taught developer fascinated by coding and <span style="font-style: oblique;"> problem-solving</span>.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-outline-light btn-lg px-4">Contact me</button>
+              <!-- <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Résumé</button> -->
+          </div>
+        </div>
+    </div>
+  </div>
+
+<!-- Profile -->
+
+    <div class="container px-4 py-5" id="profile">
+      <h2 class="pb-2 border-bottom"> Profile</h2>
+      <div class="row g-4 py-4 row-cols-1">
+        <div class="col d-block align-items-center">
+          <div class="goncalo">
+            <img class="profile-pic" src="./assets/images/profile.jfif" alt="me">
+          </div>
+          <div>
+            <p class="profile-text"> Hello, my name is Gonçalo. I took multiple online courses to learn web development from scratch, consolidating all that knowledge in a recent six-month bootcamp
+              at App Brewery with Angela Yu.
+              <span id="dots"></span>
+              <span id="more">I've built a strong foundation in HTML and CSS. With a keen eye for design and structure, I usually create clean, responsive web pages tailored to each client's 
+                needs. However, I don't write anything in stone — if the world moves, I move with it, continuously honing my skills.</span> <button onclick="myFunction()" id="myBtn">></button> </p>
+
+            <a href="#" class="btn btn-outline-light">
+              Résumé
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Skill-list -->
+
+    <div class="container px-4 py-5" id="skills">
+      <h2 class="pb-2 border-bottom">Skill Set</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="./assets/images/html.svg" alt="html" class="img-js">
+          </div>
+          <div>
+            <h3 class="fs-2">html</h3>
+            <p>I think I can do a little more than the classic 'Hello World'.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="./assets/images/css.svg" alt="css" class="img-js">
+          </div>
+          <div>
+            <h3 class="fs-2">CSS</h3>
+            <p>Easy manipulation of CSS, including Flexbox, Grid, and Bootstrap.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img src="./assets/images/js.svg" alt="javaScript" class="img-js">
+          </div>
+          <div>
+            <h3 class="fs-2">javaScript</h3>
+            <p>Still learning.</p>
+            <a href="#" class="btn btn-light">
+              Random Button
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Cards -->
+  <div class="rev-backg gradient-background2"> 
+
+    <div class="container px-4 py-5" id="skills">
+      <h2 class="pb-2 border-bottom">Reviews</h2>
+        <p>A collection of completely independent opinions about my work from random people. Absolutely unbiased.</p>
+    </div>
+
+    <div class="container" id="testimonial">
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <q class="card-text">Gonçalo knows a lot about coding. I don't have the faintest idea what <span style="font-weight: 700;">coding</span> is, but he's my son, so in my books, he's the <u>best dev</u> in the world.</q>
+          <br>
+          <br>
+        <h5 class="card-title">- Mom</h5>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <q class="card-text">Yeah, he's <span style="font-style: italic;">ok</span>.</q>
+        
+          <br>
+          <br>
+        <h5 class="card-title">- Wife</h5>
+      </div>
+    </div>
+   </div>
+   <hr />
+  </div>
+
+<!-- Footer -->
+
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/in/gonsamaro/"><img class="footer-logo" src="./assets/images/linkedin.svg" alt="linkedin"></a>
+  <a class="footer-link" href="https://x.com/gonsamaro"><img class="footer-logo" src="./assets/images/x.svg" alt="x"></a>
+  <p class="copyright">© Amaro 2025</p>
+</div>
+
+<!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
