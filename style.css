@@ -150,14 +150,14 @@ margin: 100px auto;
 }
 
 .rev-backg {
-  background-image: url(./assets/images/hw2.jpg);
+  background-image: url(./assets/images/hero-world2.jpg);
   background-size: contain;
 }
 
 @media (max-width: 768px) {
 
   .rev-backg {
-    background-image: url(./assets/images/hw2.jpg);
+    background-image: url(./assets/images/hero-world2.jpg);
     background-size: cover;
   }
 
